@@ -34,7 +34,7 @@ class Transfer
   end 
   
   def reject_transfer
-    if !self.valid? 
+    if !self.valid? || sender.balance == 0 
   end 
   
 end
