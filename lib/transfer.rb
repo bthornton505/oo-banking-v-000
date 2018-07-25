@@ -36,8 +36,6 @@ class Transfer
   def reject_transfer
     if !self.valid? || sender.balance == 0 
       "Transaction rejected. Please check your account balance."
-    else 
-      nil
     end
   end 
   
