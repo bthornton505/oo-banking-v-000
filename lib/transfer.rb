@@ -34,7 +34,7 @@ class Transfer
   end 
   
   def reject_transfer
-    if !self.valid? || sender.balance == 0 
+    if  sender.balance == 0 
       "Transaction rejected. Please check your account balance."
     end 
   end 
