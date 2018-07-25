@@ -33,7 +33,7 @@ class Transfer
   
   
   def reject_transfer
-     sender.status = "rejected"
+     self.status = "rejected"
     "Transaction rejected. Please check your account balance."
   end 
   
