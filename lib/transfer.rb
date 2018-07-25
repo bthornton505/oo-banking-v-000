@@ -28,6 +28,7 @@ class Transfer
       receiver.balance -= amount
       sender.balance += amount 
       self.status = "pending"
+    end 
   end 
   
   
